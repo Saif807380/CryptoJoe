@@ -108,7 +108,9 @@ class App extends Component {
       this.setState({ accountBalance });
       this.setState({ loading: false });
       const networkId = await web3.eth.net.getId();
+      console.log(networkId);
       const networkData = CryptoJoe.networks[networkId];
+      console.log(networkData);
       if (networkData) {
         this.setState({ loading: true });
         const CryptoJoeContract = web3.eth.Contract(
