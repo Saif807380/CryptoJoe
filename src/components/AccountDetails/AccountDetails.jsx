@@ -4,7 +4,7 @@ const AccountDetails = ({ accountAddress, accountBalance }) => {
   return (
     <div>
       <div className="jumbotron">
-        <h1 className="display-5">Decentralized NFT Marketplace</h1>
+        <h1 className="display-5">CryptoJoe NFT Marketplace</h1>
         <p className="lead">
           This is an NFT marketplace where you can mint ERC721 implemented{" "}
           <em>NFTs</em> and manage them.
